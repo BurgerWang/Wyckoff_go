@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wyckoff-pnf"
+version = "0.3.0"
+description = "Rule-based Wyckoff price-volume and Point & Figure analysis"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "pandas>=2.2"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8"]
+yahoo = ["yfinance>=0.2.54"]
+research = ["scipy>=1.11", "exchange-calendars>=4.11"]
+tuning = ["optuna==5.0.0", "exchange-calendars>=4.11"]
+dev = ["pytest>=8", "ruff>=0.11"]
+
+[project.scripts]
+wyckoff-analyze = "analysis:main"
+wyckoff-study = "research.market_study:main"
+wyckoff-tune = "research.tuning.cli:main"
+
+[tool.setuptools]
+py-modules = ["market_data", "pnf", "wyckoff", "analysis", "backtest"]
+packages = ["research", "research.tuning", "wyckoff_core"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

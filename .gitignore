@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.png
+*.csv
+.pytest_cache/
+.venv/
+.env
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+output/
+research/output/
+doc/literature/pdf/
+research/labels/sources/

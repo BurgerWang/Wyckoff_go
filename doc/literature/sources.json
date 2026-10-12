@@ -1,0 +1,202 @@
+{
+  "searched_at": "2026-09-30",
+  "scope": "Wyckoff structural analysis, related market microstructure, hyperparameter search and validation; not evidence of Wyckoff profitability",
+  "sources": [
+    {
+      "id": "WA_TUTORIAL",
+      "title": "The Wyckoff Method",
+      "authors": "Roman Bogomazov and Michael Lipsett / Wyckoff Analytics",
+      "year": 2022,
+      "type": "authoritative_teaching",
+      "url": "https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/the-wyckoff-method-a-tutorial",
+      "pdf_url": "https://www.wyckoffanalytics.com/wp-content/uploads/2022/06/Wyckoff-Method-Wyckoff-Analytics-English-V2.pdf",
+      "filename": "wyckoff_method_analytics_v2.pdf",
+      "note": "Authoritative teaching, not a statistical efficacy study; year refers to this archived PDF edition.",
+      "read_scope": "classic full text, with visual verification scope recorded in notes",
+      "pdf_version": "English V2, updated June 2022; document created May 2019"
+    },
+    {
+      "id": "CMT_PRUDEN",
+      "title": "Matrix, Wyckoff - Figure Chart",
+      "authors": "Henry (Hank) Pruden",
+      "year": 2012,
+      "type": "professional_teaching",
+      "url": "https://cmtassociation.org/wp-content/uploads/2024/01/0314-pruden-1-1.pdf",
+      "pdf_url": "https://cmtassociation.org/wp-content/uploads/2024/01/0314-pruden-1-1.pdf",
+      "filename": "pruden_wyckoff_figure_chart_2012.pdf",
+      "read_scope": "classic full text, with visual verification scope recorded in notes"
+    },
+    {
+      "id": "WA_ANATOMY",
+      "title": "Anatomy of a Trading Range",
+      "authors": "Jim Forte",
+      "type": "professional_journal_teaching",
+      "url": "https://www.wyckoffanalytics.com/wp-content/uploads/2019/08/AnatomyofaTradingRange.pdf",
+      "pdf_url": "https://www.wyckoffanalytics.com/wp-content/uploads/2019/08/AnatomyofaTradingRange.pdf",
+      "filename": "anatomy_trading_range.pdf",
+      "read_scope": "classic full text, with visual verification scope recorded in notes",
+      "year": 1994,
+      "journal": "MTA Journal, Summer-Fall 1994, pp.47-58",
+      "pdf_version": "12-page image-only scan; all pages visually read"
+    },
+    {
+      "id": "LMW2000",
+      "title": "Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation",
+      "authors": "Andrew W. Lo, Harry Mamaysky, Jiang Wang",
+      "year": 2000,
+      "journal": "Journal of Finance 55(4):1705-1765",
+      "doi": "10.1111/0022-1082.00265",
+      "type": "peer_reviewed_foundational",
+      "pdf_version": "NBER working paper, separate from journal version",
+      "url": "https://www.nber.org/papers/w7613",
+      "pdf_url": "https://www.nber.org/papers/w7613.pdf",
+      "filename": "lo_mamaysky_wang_2000_working_paper.pdf",
+      "read_scope": "selected original-paper sections; not experiment replication"
+    },
+    {
+      "id": "CKS2014",
+      "title": "The Price Impact of Order Book Events",
+      "authors": "Rama Cont, Arseniy Kukanov, Sasha Stoikov",
+      "year": 2014,
+      "journal": "Journal of Financial Econometrics 12(1):47-88",
+      "doi": "10.1093/jjfinec/nbt003",
+      "type": "peer_reviewed_microstructure",
+      "pdf_version": "author preprint arXiv:1011.6402",
+      "url": "https://arxiv.org/abs/1011.6402",
+      "pdf_url": "https://arxiv.org/pdf/1011.6402",
+      "filename": "cont_kukanov_stoikov_price_impact_preprint.pdf",
+      "read_scope": "selected original-paper sections; not experiment replication"
+    },
+    {
+      "id": "KTY2023",
+      "title": "Deep Order Flow Imbalance: Extracting Alpha at Multiple Horizons from the Limit Order Book",
+      "authors": "Petter N. Kolm, Jeremy Turiel, Nicholas Westray",
+      "year": 2023,
+      "journal": "Mathematical Finance 33(4):1044-1081",
+      "doi": "10.1111/mafi.12413",
+      "type": "peer_reviewed_microstructure",
+      "pdf_version": "2021 SSRN working paper if available",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.12413",
+      "pdf_url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3900141_code545299.pdf?abstractid=3900141&mirid=1",
+      "filename": "kolm_turiel_westray_deep_ofi_working_paper.pdf",
+      "read_scope": "abstract only; full PDF unavailable"
+    },
+    {
+      "id": "BBA2025",
+      "title": "Deep limit order book forecasting: a microstructural guide",
+      "authors": "Antonio Briola, Silvia Bartolucci, Tomaso Aste",
+      "year": 2025,
+      "journal": "Quantitative Finance 25(7):1101-1131",
+      "doi": "10.1080/14697688.2025.2522911",
+      "type": "peer_reviewed_recent",
+      "pdf_version": "published open-access version",
+      "url": "https://eprints.lse.ac.uk/128950/",
+      "pdf_url": "https://eprints.lse.ac.uk/128950/1/Deep_limit_order_book_forecasting_a_microstructural_guide.pdf",
+      "filename": "briola_bartolucci_aste_2025_microstructural_guide.pdf",
+      "read_scope": "selected original-paper sections; not experiment replication"
+    },
+    {
+      "id": "STW1999",
+      "title": "Data-Snooping, Technical Trading Rule Performance, and the Bootstrap",
+      "authors": "Ryan Sullivan, Allan Timmermann, Halbert White",
+      "year": 1999,
+      "journal": "Journal of Finance",
+      "doi": "10.1111/0022-1082.00163",
+      "type": "peer_reviewed_validation",
+      "pdf_version": "1998 LSE discussion paper",
+      "url": "https://www.fmg.ac.uk/sites/default/files/2020-11/dp303.pdf",
+      "pdf_url": "https://www.fmg.ac.uk/sites/default/files/2020-11/dp303.pdf",
+      "filename": "sullivan_timmermann_white_technical_rules_dp303.pdf",
+      "read_scope": "selected original-paper sections; not experiment replication"
+    },
+    {
+      "id": "PBO2017",
+      "title": "The Probability of Backtest Overfitting",
+      "authors": "David H. Bailey, Jonathan M. Borwein, Marcos Lopez de Prado, Qiji Jim Zhu",
+      "year": 2017,
+      "journal": "Journal of Computational Finance 20(4):39-69",
+      "doi": "10.21314/JCF.2016.322",
+      "type": "peer_reviewed_validation",
+      "pdf_version": "author manuscript dated 2015-02-27",
+      "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+      "pdf_url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+      "filename": "bailey_et_al_probability_backtest_overfitting.pdf",
+      "read_scope": "selected original-paper sections; not experiment replication"
+    },
+    {
+      "id": "BB2012",
+      "title": "Random Search for Hyper-Parameter Optimization",
+      "authors": "James Bergstra, Yoshua Bengio",
+      "year": 2012,
+      "journal": "Journal of Machine Learning Research 13(10):281-305",
+      "type": "peer_reviewed_search_method",
+      "pdf_version": "published open-access version",
+      "url": "https://jmlr.org/papers/v13/bergstra12a.html",
+      "pdf_url": "https://jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf",
+      "filename": "bergstra_bengio_2012_random_search.pdf",
+      "read_scope": "abstract, introduction and selected search/evaluation sections; not experiment replication"
+    },
+    {
+      "id": "CT2010",
+      "title": "On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation",
+      "authors": "Gavin C. Cawley, Nicola L. C. Talbot",
+      "year": 2010,
+      "journal": "Journal of Machine Learning Research 11(70):2079-2107",
+      "type": "peer_reviewed_validation",
+      "pdf_version": "published open-access version",
+      "url": "https://www.jmlr.org/papers/v11/cawley10a.html",
+      "pdf_url": "https://www.jmlr.org/papers/volume11/cawley10a/cawley10a.pdf",
+      "filename": "cawley_talbot_2010_model_selection_bias.pdf",
+      "read_scope": "abstract, introduction and selected nested-evaluation sections; not experiment replication"
+    },
+    {
+      "id": "CM2015",
+      "title": "A Practitioner's Guide to Cluster-Robust Inference",
+      "authors": "A. Colin Cameron and Douglas L. Miller",
+      "year": 2015,
+      "journal": "Journal of Human Resources 50(2)",
+      "type": "peer_reviewed_validation",
+      "url": "https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015.pdf",
+      "pdf_url": "https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015.pdf",
+      "filename": "cameron_miller_2015_cluster_inference.pdf",
+      "read_scope": "Selected original PDF sections II.C and VI via web reader; local PDF unavailable; not experiment replication"
+    }
+  ],
+  "downgraded": [
+    {
+      "id": "MQL5_PART1",
+      "title": "Automating Classic Market Methods in MQL5 (Part 1): Wyckoff Accumulation and Distribution",
+      "author": "Tola Moses Hector",
+      "url": "https://www.mql5.com/en/articles/22628",
+      "type": "community_implementation_tutorial",
+      "reason": "EA implementation tutorial; not a peer-reviewed research paper or a canonical full Wyckoff specification"
+    },
+    {
+      "id": "MQL5_PART2",
+      "title": "Automating Classic Market Methods in MQL5 (Part 2): Wyckoff Cause and Effect - Point and Figure Price Targets",
+      "author": "Tola Moses Hector",
+      "url": "https://www.mql5.com/en/articles/22472",
+      "type": "community_implementation_tutorial",
+      "reason": "EA/count implementation example; ordinary community article, not scholarly efficacy evidence"
+    }
+  ],
+  "related_web_sources": [
+    {
+      "title": "Wyckoff Market Analysis",
+      "url": "https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/wyckoff-market-analysis",
+      "type": "authoritative_teaching"
+    },
+    {
+      "title": "Wyckoff Stock Analysis",
+      "url": "https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/wyckoff-stock-analysis",
+      "type": "authoritative_teaching"
+    },
+    {
+      "title": "How I Trade and Invest in Stocks and Bonds",
+      "authors": "Richard D. Wyckoff",
+      "url": "https://archive.org/stream/cu31924031269552/cu31924031269552_djvu.txt",
+      "type": "historical_background_only",
+      "read_scope": "preface, contents, selected Technical Position passage; no A-E algorithm or thresholds adopted"
+    }
+  ]
+}
